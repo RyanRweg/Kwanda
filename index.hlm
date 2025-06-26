@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kwaanda Labs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111827;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #008080;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #008080;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+
+    .button:hover {
+      background-color: #006666;
+    }
+
+    .contact {
+      margin-top: 3rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #008080;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.8rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/RyanRweg/Kwanda-/main/logo.png" alt="Kwaanda Labs Logo" />
+    <h1>Kwaanda Labs</h1>
+    <p>Innovating through collaboration, sustainability, and culture. Our platform is launching soon. Stay connected!</p>
+    <a href="mailto:kwaandalabs11@gmail.com" class="button">Contact Us</a>
+  </header>
+
+  <section class="contact">
+    <p><strong>📍 Address:</strong> KK 250 St, Kigali, Rwanda</p>
+    <p><strong>📧 Email:</strong> kwaandalabs11@gmail.com</p>
+    <p><strong>📞 Phone:</strong> +250 780 820 336</p>
+
+    <div class="social">
+      <a href="https://www.instagram.com/kwaandalabsltd/" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Kwaanda Labs. All rights reserved.
+  </footer>
+</body>
+</html>
